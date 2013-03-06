@@ -1,0 +1,65 @@
+﻿@model List<List<object[]>>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Visitas</h1>
+
+@foreach (var item in Model.ElementAt(0))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
+
+<h1>Desempenho de vendas</h1>
+
+@foreach (var item in Model.ElementAt(1))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
+
+<h1>Produtos mais vendidos</h1>
+
+@foreach (var item in Model.ElementAt(2))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
+
+<h1>Fontes de Tráfego</h1>
+
+@foreach (var item in Model.ElementAt(3))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
+
+<h1>Palavras-chave</h1>
+
+@foreach (var item in Model.ElementAt(4))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
+
+<h1>Palavras-chave</h1>
+
+@foreach (var item in Model.ElementAt(5))
+{
+    @item[0]
+    <br />
+    @item[1]
+    <br /><br />
+}
